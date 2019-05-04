@@ -8,7 +8,7 @@ import Ed #This imports the Edison module
 
 Ed.EdisonVersion = Ed.V2 #This tells the code what version Edison robot you own
 
-Ed.DistanceUnits = Ed.CM # This specifies the unitls of distance (in this case centimeters)
+Ed.DistanceUnits = Ed.CM # This specifies the units of distance (in this case centimeters)
 Ed.Tempo = Ed.TEMPO_MEDIUM #This sets the music tempo to medium
 
 #--------Your code below-----------
