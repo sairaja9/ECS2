@@ -1,4 +1,4 @@
-#ask Rohan for help 
+
 #-------------Setup----------------
 
 import Ed
@@ -11,13 +11,13 @@ Ed.Tempo = Ed.TEMPO_MEDIUM
 #--------Your code below-----------
 
 Ed.LeftLed(Ed.ON)
-Ed.PlayMyBeep(8000)
+Ed.PlayBeep()
 Ed.LeftLed(Ed.OFF)
-Ed.PlayMyBeep(8000)
+Ed.PlayBeep()
 
 Ed.RightLed(Ed.ON)
-Ed.PlayMyBeep(8000)
+Ed.PlayBeep()
 Ed.RightLed(Ed.OFF)
-Ed.PlayMyBeep(8000)
+Ed.PlayBeep()
 
 
