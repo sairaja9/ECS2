@@ -17,7 +17,7 @@ number_of_sides = 4
 internal_angle_measure = find_internal_angle_measure(number_of_sides)
 side = 1
 while side <= number_of_sides:
-    Ed.Drive(Ed.Foreward,Ed.Speen_5, 20)
-    Ed.Drive(Ed.Forward_Left, Ed.Speed_5, internal_angle_measure)
+    Ed.Drive(Ed.FORWARD,Ed.SPEED_5, 20)
+    Ed.Drive(Ed.FORWARD_LEFT, Ed.SPEED_5, internal_angle_measure)
     side += 1
     
